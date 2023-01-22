@@ -1,0 +1,116 @@
+
+    Brand: Komili Aycicek Yagi 5 L
+    Price: ₺159,50
+    
+
+    Brand: Zeo Zeytinyagi Riviera 1 L
+    Price: ₺85,90
+    
+
+    Brand: Vera Aycicek Yagi 2 L
+    Price: ₺69,00
+    
+
+    Brand: Zeo Zeytinyagi Sizma 1 L
+    Price: ₺89,50
+    
+
+    Brand: Biryag Aycicek Yagi 1 L
+    Price: ₺44,90
+    
+
+    Brand: Zeo Zeytinyagi Riviera 2 L
+    Price: ₺165,00
+    
+
+    Brand: Aycicek Yagi 1 L Komili
+    Price: ₺42,25
+    
+
+    Brand: Biryag Aycicek Yagi 2 L
+    Price: ₺79,00
+    
+
+    Brand: Vera Aycicek Yagi 1 L
+    Price: ₺37,50
+    
+
+    Brand: Komili Aycicek Yagi 2 L
+    Price: ₺73,90
+    
+
+    Brand: Yudum Aycicek Yagi 1,25 L
+    Price: ₺57,95
+    
+
+    Brand: Vera Aycicek Yagi Pet 5 L
+    Price: ₺144,00
+    
+
+    Brand: Vera Misirozu Yagi 2 L
+    Price: ₺74,50
+    
+
+    Brand: Vera Misirozu Yagi 5 L
+    Price: ₺167,50
+    
+
+    Brand: Komili Zeytinyagi Riviera Yemeklik 1 L
+    Price: ₺88,50
+    
+
+    Brand: Safya Aycicek Yagi 3 L
+    Price: ₺99,90
+    
+
+    Brand: Sirma Aycicek Yagi 1 L
+    Price: ₺42,25
+    
+
+    Brand: Komili Sizma Yumusak Zeytinyagi 1 L
+    Price: ₺92,50
+    
+
+    Brand: Yudum Egemden Sizma Zeytinyagi 500 ml
+    Price: ₺42,75
+    
+
+    Brand: Sirma Aycicek Yagi 2 L
+    Price: ₺73,90
+    
+
+    Brand: Dare Aycicek Yagi 3 L
+    Price: ₺99,90
+    
+
+    Brand: Yudum Egemden Riviera Zeytinyagi 500 ml
+    Price: ₺56,90
+    
+
+    Brand: Yudum Omega 3 Bitkisel Sivi Yag  3000 ml
+    Price: ₺134,90
+    
+
+    Brand: Komili Sizma Zeytinyagi Meyvemsi 500 ml
+    Price: ₺59,00
+    
+
+    Brand: Yudum Aycicek Yagi 4,5 L
+    Price: ₺164,00
+    
+
+    Brand: Yudum Kavanoz Aycicek Yagi 4,5 L
+    Price: ₺164,00
+    
+
+    Brand: Yudum Aycicek Yagi 1 L
+    Price: ₺38,50
+    
+
+    Brand: Kristal Anatolia Zeytinyagi Riviera 1 L
+    Price: ₺78,50
+    
+
+    Brand: Yudum Omega 3 Bitkisel Karisim Yagi 1 L
+    Price: ₺56,90
+    
