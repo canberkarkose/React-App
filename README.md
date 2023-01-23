@@ -6,3 +6,4 @@ This project is a web scraper that gathers data on oil prices and brands from an
     Python (BeautifulSoup, Requests) for web scraping
     SQLite3 for data storage
     React for web app development
+    React Table
