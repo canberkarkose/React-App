@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "brand_name": "Komili Aycicek Yagi 5 L",
+        "price": "TL159,50"
+    },
+    {
+        "id": 2,
+        "brand_name": "Yudum Aycicek Yagi 1,25 L",
+        "price": "TL57,95"
+    },
+    {
+        "id": 3,
+        "brand_name": "Biryag Aycicek Yagi 1 L",
+        "price": "TL44,90"
+    },
+    {
+        "id": 4,
+        "brand_name": "Vera Aycicek Yagi 1 L",
+        "price": "TL37,50"
+    },
+    {
+        "id": 5,
+        "brand_name": "Vera Aycicek Yagi 2 L",
+        "price": "TL69,00"
+    },
+    {
+        "id": 6,
+        "brand_name": "Biryag Aycicek Yagi 2 L",
+        "price": "TL79,00"
+    },
+    {
+        "id": 7,
+        "brand_name": "Komili Aycicek Yagi 2 L",
+        "price": "TL73,90"
+    },
+    {
+        "id": 8,
+        "brand_name": "Zeo Zeytinyagi Riviera 1 L",
+        "price": "TL85,90"
+    },
+    {
+        "id": 9,
+        "brand_name": "Aycicek Yagi 1 L Komili",
+        "price": "TL42,25"
+    },
+    {
+        "id": 10,
+        "brand_name": "Zeo Zeytinyagi Riviera 2 L",
+        "price": "TL165,00"
+    },
+    {
+        "id": 11,
+        "brand_name": "Zeo Zeytinyagi Sizma 1 L",
+        "price": "TL89,50"
+    },
+    {
+        "id": 12,
+        "brand_name": "Vera Aycicek Yagi Pet 5 L",
+        "price": "TL144,00"
+    },
+    {
+        "id": 13,
+        "brand_name": "Vera Misirozu Yagi 2 L",
+        "price": "TL74,50"
+    },
+    {
+        "id": 14,
+        "brand_name": "Vera Misirozu Yagi 5 L",
+        "price": "TL167,50"
+    },
+    {
+        "id": 15,
+        "brand_name": "Yudum Egemden Riviera Zeytinyagi 500 ml",
+        "price": "TL56,90"
+    },
+    {
+        "id": 16,
+        "brand_name": "Sirma Aycicek Yagi 1 L",
+        "price": "TL42,25"
+    },
+    {
+        "id": 17,
+        "brand_name": "Safya Aycicek Yagi 3 L",
+        "price": "TL99,90"
+    },
+    {
+        "id": 18,
+        "brand_name": "Yudum Kavanoz Aycicek Yagi 4,5 L",
+        "price": "TL164,00"
+    },
+    {
+        "id": 19,
+        "brand_name": "Sirma Aycicek Yagi 2 L",
+        "price": "TL73,90"
+    },
+    {
+        "id": 20,
+        "brand_name": "Dare Aycicek Yagi 3 L",
+        "price": "TL99,90"
+    },
+    {
+        "id": 21,
+        "brand_name": "Yudum Omega 3 Bitkisel Sivi Yag  3000 ml",
+        "price": "TL134,90"
+    },
+    {
+        "id": 22,
+        "brand_name": "Komili Sizma Yumusak Zeytinyagi 1 L",
+        "price": "TL92,50"
+    },
+    {
+        "id": 23,
+        "brand_name": "Yudum Egemden Sizma Zeytinyagi 500 ml",
+        "price": "TL42,75"
+    },
+    {
+        "id": 24,
+        "brand_name": "Komili Zeytinyagi Riviera Yemeklik 1 L",
+        "price": "TL88,50"
+    },
+    {
+        "id": 25,
+        "brand_name": "Yudum Aycicek Yagi 4,5 L",
+        "price": "TL164,00"
+    },
+    {
+        "id": 26,
+        "brand_name": "Yudum Omega 3 Bitkisel Karisim Yagi 1 L",
+        "price": "TL56,90"
+    },
+    {
+        "id": 27,
+        "brand_name": "Yudum Aycicek Yagi 1 L",
+        "price": "TL38,50"
+    },
+    {
+        "id": 28,
+        "brand_name": "Komili Sizma Zeytinyagi Meyvemsi 500 ml",
+        "price": "TL59,00"
+    },
+    {
+        "id": 29,
+        "brand_name": "Kristal Anatolia Zeytinyagi Riviera 1 L",
+        "price": "TL78,50"
+    }
+]
