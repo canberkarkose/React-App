@@ -45,8 +45,10 @@ export const SortingTable = () => {
                         return (
                             <tr {...row.getRowProps()}>
                                 {
-                                    row.cells.map((cell) => {
-                                        return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
+                                    row.cells.map((cell, index) => {
+                                        return <td {...cell.getCellProps()}>
+                                            {columns[index].accessor === 'photo' ? <img src={cell.value} alt="product" width="100" height="100" /> : cell.render('Cell')}
+                                        </td>
                                     })
                                 }
                             </tr>

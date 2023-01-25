@@ -14,4 +14,9 @@ export const COLUMNS = [
         Footer: 'Price',
         accessor: 'price'
     },
+    {
+        Header: 'Photo',
+        Footer: 'Photo',
+        accessor: 'photo'
+    }
 ]

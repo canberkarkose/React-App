@@ -13,7 +13,8 @@ data = []
 for i, brand in enumerate(brands):
     brand_name = unidecode(brand.find('h3', class_='name').text).replace("\n","").strip()
     price = brand.find('span', class_='current').text.replace('\u20ba',"TL")
-    data.append({'id': i+1, 'brand_name': brand_name, 'price': price})
+    photo = brand.find('figure', class_='product-image').img['data-src']
+    data.append({'id': i+1, 'brand_name': brand_name, 'price': price, 'photo': photo})
 
 with open('scraped_data.json', 'w') as json_file:
     json.dump(data, json_file)
