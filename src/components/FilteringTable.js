@@ -4,12 +4,17 @@ import SCRAPED_DATA from './scraped_data.json'
 import { COLUMNS } from './columns'
 import './table.css'
 import { GlobalFilter } from './GlobalFilter'
+import { ColumnFilter } from './ColumnFilter'
 
 export const FilteringTable = () => {
     const columns = useMemo(() => COLUMNS, [])
     const data = useMemo(() => SCRAPED_DATA, [])
 
-
+    const defaultColumn = useMemo(() => {
+        return {
+            Filter: ColumnFilter
+        }
+    }, [])
     const {
         getTableProps,
         getTableBodyProps,
@@ -22,6 +27,7 @@ export const FilteringTable = () => {
     } = useTable({
         columns,
         data,
+        defaultColumn
     },
         useFilters,
         useGlobalFilter,
