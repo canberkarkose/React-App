@@ -50,7 +50,7 @@ export const FilteringTable = () => {
                                 <span>
                                     {(column.isSorted ? (column.isSortedDesc ? '⬇️' : '⬆️') : '')}
                                 </span>
-                                <div onClick={(e) => e.stopPropagation()}>{column.canFilter ? column.render('Filter'): null}</div>
+                                <div onClick={(e) => e.stopPropagation()}>{column.canFilter && column.id !== 'id' && column.id !== 'photo' ? column.render('Filter'): null}</div>
                             </th>
                         ))}
                     </tr>

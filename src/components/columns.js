@@ -21,7 +21,6 @@ export const COLUMNS = [
         Header: 'Photo',
         Footer: 'Photo',
         accessor: 'photo',
-        Filter: ColumnFilter,
         disableFilters: true
     }
 ]
