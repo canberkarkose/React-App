@@ -21,6 +21,7 @@ export const COLUMNS = [
         Header: 'Photo',
         Footer: 'Photo',
         accessor: 'photo',
-        disableFilters: true
+        disableFilters: true,
+        disableSortBy: true
     }
 ]
