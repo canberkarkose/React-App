@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { useTable, useSortBy, useGlobalFilter } from 'react-table'
+import { useTable, useSortBy, useGlobalFilter, useFilters } from 'react-table'
 import SCRAPED_DATA from './scraped_data.json'
 import { COLUMNS } from './columns'
 import './table.css'
@@ -23,6 +23,7 @@ export const FilteringTable = () => {
         columns,
         data,
     },
+        useFilters,
         useGlobalFilter,
         useSortBy,
         )
@@ -37,12 +38,13 @@ export const FilteringTable = () => {
             <thead>
                 {headerGroups.map((headerGroup) => (
                     <tr {...headerGroup.getHeaderGroupProps()}>
-                        {headerGroup.headers.map(column => (
+                        {headerGroup.headers.map((column, index) => (
                             <th {...column.getHeaderProps(column.getSortByToggleProps())}>{
                                 column.render('Header')}
                                 <span>
-                                    {column.isSorted ? (column.isSortedDesc ? '⬇️' : '⬆️') : ''}
+                                    {(column.isSorted ? (column.isSortedDesc ? '⬇️' : '⬆️') : '')}
                                 </span>
+                                <div onClick={(e) => e.stopPropagation()}>{column.canFilter ? column.render('Filter'): null}</div>
                             </th>
                         ))}
                     </tr>
