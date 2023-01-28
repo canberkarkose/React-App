@@ -12,7 +12,7 @@ you can schedule the script to run on a daily basis using the built-in task sche
 
 # Note
     Make sure that the script is able to access the website and scrape the data.
-    The script is currently set to scrape the data only for oil prices and brand, 
+    The script is currently set to scrape the data only for mobile phone prices and brand, 
     you can add or modify the script to scrape other data as well.
 
 # Contributing
