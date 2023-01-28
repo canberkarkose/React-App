@@ -1,10 +1,10 @@
 import './App.css';
-import { PaginationTable } from './components/PaginationTable';
+import { ScrapedTable } from './components/ScrapedTable';
 
 function App() {
   return (
     <div className='App'>
-      <PaginationTable />
+      <ScrapedTable />
     </div>
   )
 }

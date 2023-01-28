@@ -6,7 +6,7 @@ import './table.css'
 import { GlobalFilter } from './GlobalFilter'
 import { ColumnFilter } from './ColumnFilter'
 
-export const PaginationTable = () => {
+export const ScrapedTable = () => {
     const columns = useMemo(() => COLUMNS, [])
     const data = useMemo(() => SCRAPED_DATA, [])
 
