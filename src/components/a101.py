@@ -4,8 +4,6 @@ from unidecode import unidecode
 import json
 
 
-
-
 data = []
 i = 0
 for page in range(1, 3):
