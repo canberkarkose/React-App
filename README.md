@@ -8,7 +8,7 @@ This project is a web scraper that gathers data on mobile phone prices and brand
 + React for web app development
     
 # Scheduling the script
-you can schedule the script to run on a daily basis using the built-in task scheduler in your operating system or using a library such as schedule in python.
+You can schedule the script to run on a daily basis using the built-in task scheduler in your operating system or using a library such as schedule in python.
 
 # Note
 1. Make sure that the script is able to access the website and scrape the data.
