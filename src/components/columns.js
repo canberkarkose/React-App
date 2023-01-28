@@ -11,6 +11,7 @@ export const COLUMNS = [
         Header: 'Brand',
         Footer: 'Brand',
         accessor: 'brand_name',
+        disableSortBy: true
     },
     {
         Header: 'Price',
