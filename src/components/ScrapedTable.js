@@ -7,14 +7,19 @@ import { GlobalFilter } from './GlobalFilter'
 import { ColumnFilter } from './ColumnFilter'
 
 export const ScrapedTable = () => {
+
+    // define the columns and data
     const columns = useMemo(() => COLUMNS, [])
     const data = useMemo(() => SCRAPED_DATA, [])
 
+    // define the default column filter
     const defaultColumn = useMemo(() => {
         return {
             Filter: ColumnFilter
         }
     }, [])
+
+    // useTable hook to create a table instance with sorting, filtering and pagination
     const {
         getTableProps,
         getTableBodyProps,
@@ -37,19 +42,22 @@ export const ScrapedTable = () => {
         data,
         defaultColumn
     },
-        useFilters,
-        useGlobalFilter,
-        useSortBy,
-        usePagination
+        useFilters, // enable column-wise filtering
+        useGlobalFilter, // enable global filtering
+        useSortBy, // enable sorting
+        usePagination // enable pagination
     )
-
 
     const { globalFilter, pageIndex, pageSize } = state
 
     return (
         <>
+            {/* Global filter component */}
             <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} />
+            
+            {/* Table */}
             <table {...getTableProps()}>
+                {/* Table header */}
                 <thead>
                     {headerGroups.map((headerGroup) => (
                         <tr {...headerGroup.getHeaderGroupProps()}>
@@ -59,12 +67,15 @@ export const ScrapedTable = () => {
                                     <span>
                                         {(column.isSorted ? (column.isSortedDesc ? '⬇️' : '⬆️') : '')}
                                     </span>
+                                    {/* Column filter */}
                                     <div onClick={(e) => e.stopPropagation()}>{column.canFilter && column.id !== 'id' && column.id !== 'photo' ? column.render('Filter') : null}</div>
                                 </th>
                             ))}
                         </tr>
                     ))}
                 </thead>
+
+                {/* Table body */}
                 <tbody {...getTableBodyProps()}>
                     {
                         page.map((row) => {
@@ -74,6 +85,7 @@ export const ScrapedTable = () => {
                                     {
                                         row.cells.map((cell, index) => {
                                             return <td {...cell.getCellProps()}>
+                                                {/* Render image for photo column */}
                                                 {columns[index].accessor === 'photo' ? <img src={cell.value} alt="product" width="100" height="100" /> : cell.render('Cell')}
                                             </td>
                                         })
@@ -83,6 +95,8 @@ export const ScrapedTable = () => {
                         })
                     }
                 </tbody>
+
+                {/* Table footer */}
                 <tfoot>
                     {footerGroups.map(footerGroup => (
                         <tr {...footerGroup.getFooterGroupProps()}>
@@ -99,6 +113,8 @@ export const ScrapedTable = () => {
                     }
                 </tfoot>
             </table>
+
+            {/* Pagination */}
             <div>
                 <span>
                     Page{' '}
@@ -106,6 +122,8 @@ export const ScrapedTable = () => {
                         {pageIndex + 1} of {pageOptions.length}
                     </strong>{' '}
                 </span><br></br>
+
+                {/* Go to page input */}
                 <span>
                     Go to page: {' '}
                     <input className='input-text' type='number' defaultValue={pageIndex + 1}
@@ -115,6 +133,8 @@ export const ScrapedTable = () => {
                         }} />
                     <br></br>
                 </span>
+
+                {/* Rows per page select */}
                 <select className='page-select' value={pageSize} onChange={e => setPageSize(Number(e.target.value))}>
                     {
                         [10, 25, 50].map((pageSize) => (
@@ -125,6 +145,7 @@ export const ScrapedTable = () => {
                     }
                 </select>
 
+                {/* Pagination buttons */}
                 <button className='page-buttons' onClick={() => gotoPage(0)} disabled={!canPreviousPage}>{'<<'}</button>
                 <button className='page-buttons' onClick={() => previousPage()} disabled={!canPreviousPage}>Previous Page</button>
                 <button className='page-buttons' onClick={() => nextPage()} disabled={!canNextPage}>Next Page</button>

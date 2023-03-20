@@ -1,3 +1,4 @@
+/* Set font family and collapse border for table */
 table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -5,20 +6,24 @@ table {
   text-align: center;
 }
 
+/* Set border and padding for table cells */
 table td,
 table th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
+/* Set background color for even table rows */
 table tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
+/* Set background color for table row on hover */
 table tr:hover {
   background-color: #ddd;
 }
 
+/* Set style for table headers and footer */
 table th,
 tfoot td {
   padding-top: 12px;
@@ -28,6 +33,7 @@ tfoot td {
   color: white;
 }
 
+/* Set style for page buttons */
 .page-buttons {
   padding: 0.5em;
   margin: 0.5em;
@@ -37,17 +43,19 @@ tfoot td {
   border-radius: 0.3em;
 }
 
+/* Set style for disabled page buttons */
 .page-buttons:disabled {
   background-color: #6c757d;
   cursor: not-allowed;
 }
 
-
+/* Set style for page buttons on hover */
 .page-buttons:hover {
   background-color: #0069d9;
   cursor: pointer;
 }
 
+/* Set style for text input field */
 .input-text {
   padding: 0.5em;
   margin: 0.5em;
@@ -55,6 +63,7 @@ tfoot td {
   border: none;
 }
 
+/* Set style for page select dropdown */
 .page-select {
   padding: 0.5em;
   margin: 0.5em;
@@ -65,10 +74,12 @@ tfoot td {
   border-radius: 0.3em;
 }
 
+/* Set style for page select dropdown on hover */
 .page-select:hover {
   cursor: pointer;
 }
 
+/* Set style for options within the page select dropdown */
 .page-select option {
   padding: 0.5em;
   margin: 0.5em;
